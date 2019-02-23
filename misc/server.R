@@ -2,7 +2,7 @@ server <- function(input, output) {
   output$plot <- shiny::renderPlot({
 
 
-    whereami(path_expand = TRUE)
+    cat(whereami(path_expand = TRUE))
 
 
 
